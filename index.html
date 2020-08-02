@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="node_modules/card-js/card-js.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Payement QI</title>
+</head>
+<body>
+  <div class="navbar navbar-expand-sm fixed-top  bg-white border-bottom shadow-sm">
+    <img src="img/logo2.png" class="col col-sm-1"  />
+    <div class=" d-none d-sm-block col col-sm ">
+      <div id="visual-timer">
+        <span class="t">L'offre expire dans :</span>
+        <span id="time"> 10:00</span></div>
+    </div>
+    <div class="col col-sm">
+    </div>
+    <div class="row">
+      <div class=" col col-sm">
+        <button type="button" class="btn-liquid" data-toggle="modal" data-target="#exampleModalCenter">
+          <span class="inner">Télécharger votre certificat de QI </span></br>
+        </button>
+      </div>
+    </div>
+  </div>
+  </br></br>
+  <main class="main">
+    <div class="container ">
+      <div class="row mx-auto d-block ">
+        <div class="inner ">
+          <div class="inner__headings">
+            <img src="img/einstein-paiement.png" width="150" height="110" class="mx-auto d-block" />
+          </div>
+          <div class="inner__content">
+            <h2 class="inner__head mx-auto d-block">Bravo, vous avez réussi votre test de QI
+            </h2>
+            <p class="inner__text">Accédez à votre résultat officiel et recevez votre certificat le plus connu au monde pour<span class="inner__clr font-weight-bold"> 3.90 euro seulement!</span></br>
+              Vous pouvez connaître votre niveau d'intelligence grâce à notre test.
+            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col col-sm">
+                  <span class=" badge badge-pill badge-color">Economisez 80%</span></br>
+                  <span class=" font-weight-bold text-warning"> <s class="text-danger">‎€ 19.5 </s></span></br>
+                  <h1> <span class="badge badge-pill badge-color ">‎€ 3.9</span></h1>
+                </div>
+
+                <div class="col col-sm mt-5">
+                  <button type="button" class="button btn-warning mt-5" data-toggle="modal" data-target="#exampleModalCenter">
+                    Télécharger votre certificat
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-0 text-center font-weight-bold header ">Nos offres </h2></br>
+        <div class="cards-grid">
+          <div class="card">
+            <img class="card__icon" src="img/2.png" alt="ux-design">
+            <div class="card__body">
+              <h5 class="card__head">EASY-FITNESS & My true companion</h5>
+              <p class="card__content">Accès gratuits sur nos différentes plateformes
+                sur la durée de votre abonnement de manière illimité et sans aucun frais.</p>
+              <img src="img/10.png" width="200" height="110" class="mx-auto d-block" />
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__icon" src="img/22.png" alt="development">
+            <div class="card__body">
+              <h5 class="card__head">Horoscope</h5>
+              <p class="card__content">Recevoir chaque semaine par mail votre horoscope pendant la période d'abonnement.</p>
+              <img src="img/11.png" class=" mx-auto d-block" />
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__icon" src="img/4.png" alt="brand">
+            <div class="card__body">
+              <h5 class="card__head ">Test de development</h5>
+              <p class="card__content">Accès GRATUIT pour essayer nos tests différentes afin de développer votre QI.
+              </p>
+              <ul class="mt-5">
+
+                <ol class="mt-3"><i class="fa fa-arrow-right"></i><a> Compétence visuel</ol>
+                <ol class="mt-3"><i class="fa fa-arrow-right"></i> Compétences motrices</ol>
+                <ol class="mt-3"><i class="fa fa-arrow-right"></i> Compétence en direction</ol>
+                <ol class="mt-3"><i class="fa fa-arrow-right"></i> Test d’attention</ol>
+                <ol class="mt-3"><i class="fa fa-arrow-right"></i> Test de mémoire</ol>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class=" font-weight-bold ">Créer votre compte et payer</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container ">
+            <div class="row">
+              <div class="col mx-auto">
+                <div class="bg-white rounded-lg shadow-sm ">
+                  <!-- Credit card form tabs -->
+                  <ul role="tablist" class="nav bg-light nav-pills rounded-pill nav-fill mb-3">
+
+                    <li class="nav-item">
+                      <a data-toggle="pill" href="#nav-tab-card" class="nav-link  rounded-pill">
+                        <i class="fa fa-credit-card"></i>
+                        Carte de credit
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a data-toggle="pill" href="#nav-tab-paypal" class="nav-link rounded-pill">
+                        <i class="fa fa-paypal"></i>
+                        Paypal
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id="nav-tab-card" class="tab-pane fade show active">
+
+                      <form role="form" action="error.html">
+                        <div id="nav-tab-paypal" class="tab-pane fade">
+                          <p>payer facilement avec PayPal</p>
+                          <p>
+                            <button type="submit" class="btn btn-primary rounded-pill"><i class="fa fa-paypal mr-2"></i> Log into my Paypal</button>
+                          </p>
+                        </div>
+                        <div class="form-group">
+                          <label for="username">Email</label>
+                          <input type="email" name="email" placeholder="" required class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="username">Mot de passe</label>
+                          <input type="password" name="password" placeholder="" required class="form-control">
+                        </div>
+                          <label for="username">Nom</label>
+                          <input type="text" name="username" placeholder="" required class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="cardNumber">Numéro de carte</label>
+                          <div class="input-group">
+                            <input type="text" name="cardNumber" placeholder="1234 1234 1234 1234" maxlength="16" class="form-control" required>
+                            <div class="input-group-append">
+                              <span class="input-group-text text-muted">
+                                <i class="fa fa-cc-visa mx-1"></i>
+                                <i class="fa fa-cc-amex mx-1"></i>
+                                <i class="fa fa-cc-mastercard mx-1"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-8">
+                            <div class="form-group">
+                              <label><span class="hidden-xs">Date d’expiration</span></label>
+                              <div class="input-group">
+                                <input type="month" placeholder="MM" name="" maxlength="2" class="form-control" required>
+
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="form-group mb-4">
+                              <label data-toggle="tooltip" title="Three-digits code on the back of your card">CVV
+                                <i class="fa fa-question-circle"></i>
+                              </label>
+                              <input type="number"  maxlength="5" required class="form-control">
+                            </div>
+                          </div>
+                        </div>
+
+                        <label class="checkbox-inline"><input type="checkbox" name="privacy" required> J'ai lu et accepte les <a href="https://officiel-qi-test.com/conditions-generales-de-vente"> Termes</a> et <a
+                            href="https://officiel-qi-test.com/conditions-generales-de-vente"> Politique de confidentialité *</a></label>
+                        <a href="error.html"> <button type="submit" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm btn-lg">Confirm</button> </a>
+                        <div class="col-12 col-sm mx-auto d-block">
+                          <div class="mx-auto d-block">
+                          <img src="img/ssl.png" width="70" height="40" />
+                          <img src="img/truste.png" width="70" height="40" />
+                          <img src="img/scanalert.png" width="70" height="40" />
+                          <img src="img/mcafee.png" width="70" height="40" />  </div>
+                        </div>
+                        <p>  *L'utilisation du service Officiel-test-qi.com suppose l'inscription du Client au préalable. L'inscription est gratuite ainsi que le test de QI...  </p>
+                          <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                            <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                              <i class="fa fa-angle-down rotate-icon"></i>
+                            </a>
+                            <div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                              <div class="card-body">
+                               Le Client conclu ainsi un contrat gratuit avec Officiel-test-qi.com sur
+                                la base
+                                des présentes Conditions générales de Vente. Les résultats des tests de QI effectuée sont payants moyennant un coût de 3,90 euro ttc, à cela s’ajoute des frais d’inscription au site pour un montant de 20 euro ttc
+                                exigibles à
+                                la date de validation d’accès aux résultats du test. Une fois ces frais acquittés, le client aura accès à son interface client qui lui permettra à tout moment, d’inviter par email des tiers à effectuer le test QI, les
+                                résultats seront disponibles sur l’interface du client qui pourra les comparer et effectuer des classements. Ce service est facturable à hauteur de 19,90euro ttc/mois avec un minimum de 3 mois incompressible, passé ces
+                                trois
+                                mois ce service est renouvelable tacitement.
+                              </div>
+                            </div>
+                          </div>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm order-sm-last col-md">
+        <div class="media">
+          <div class="media-body">
+            <h2 class="mt-0 text-center font-weight-bold header ">Développer votre cerveau <span class=" badge badge-danger">Nouveau</span></h2>
+            <img src="img/5.png" width="230" height="110" class="mx-auto d-block" />
+            <ul class="mt-5">
+              <ol class="mt-3"><i class="fa fa-check"></i><a> Évaluez votre capacité cérébrale en un rien de temps. Passez 6 tests amusants et découvrez votre performance cérébrale !</ol>
+              <ol class="mt-3"><i class="fa fa-check"></i> Ne passez que quelques minutes de votre journée à jouer à des jeux de réflexion afin de maximiser votre capacité cérébrale ! 3 jeux cérébraux par jour - c'est tout ce qu'il faut pour
+                augmenter votre puissance cérébrale !</ol>
+              <ol class="mt-3"><i class="fa fa-check"></i> Découvrez comment les jeux de réflexion augmentent vos performances mentales ! Repassez les tests cérébraux et suivez vos progrès énergétiques !</ol>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container1">
+    <div class="row mx-auto d-block">
+      <div class="col-12 col-sm">
+        <div class="header font-weight-bold text-center">fiable et efficace</div>
+        <div class="description">Tous nos clients réguliers peuvent bénéficier de nos offres spéciales</div>
+        <div class="section-wrapper">
+          <div class="section">
+            <h2 class="text-center">Paiement sécurisé</h2>
+            <div>
+              <img src="img/secure.png" width="110" height="90" class="mx-auto d-block" alt="cupervisor" />
+            </div>
+          </div>
+          <div class="section2">
+            <div class="section">
+              <h2 class="text-center">se connecter avec les autres</h2>
+              <p>Possibilité de comparer et contacter les autres abonnées sur les champs des commentaires.</p>
+              <div>
+                <img src="img/7.png" width="170" height="90" class="mx-auto d-block" alt="team-builder" />
+              </div>
+            </div>
+            <div class="section">
+              <h2 class="text-center">Certificat officiel portant votre nom et votre QI.</h2>
+
+              <p><i class="fa fa-arrow-right"></i> Résultat exact de test de QI.</p>
+              <p> <i class="fa fa-arrow-right"></i> inviter par mail d’autres personnes à tester son QI.</p>
+              <div>
+                <img src="img/certif.jpg" width="200" height="130" class="mx-auto d-block" alt="icon-karma" alt="icon-carma" />
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <h2 class="text-center">Partage sur les réseaux sociaux</h2>
+
+            <div>
+              <img src="img/8.png" width="370" height="180" class="mx-auto d-block" alt="calculator" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="header font-weight-bold text-center">Nouveaux commentaires</div>
+
+          <div class="col-md-12" id="fbcomment">
+            <div class="header_comment">
+              <div class="row">
+                <div class="col-md-6 text-left">
+                  <span class="count_comment">4235 Comments</span>
+                </div>
+                <div class="col-md-6 text-right">
+                  <span class="sort_title">Sort by</span>
+                  <select class="sort_by">
+                    <option>Top</option>
+                    <option>Newest</option>
+                    <option>Oldest</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="body_comment">
+              <div class="row">
+                <div class="avatar_comment col-md-1">
+                  <img src="https://static.xx.fbcdn.net/rsrc.php/v1/yi/r/odA9sNLrE86.jpg" alt="avatar" />
+                </div>
+                <div class="box_comment col-md-11">
+                  <textarea class="commentar" placeholder="Add a comment..."></textarea>
+                  <div class="box_post">
+                    <div class="pull-left">
+                      <input type="checkbox" id="post_fb" />
+                      <label for="post_fb">Also post on Facebook</label>
+                    </div>
+                    <div class="pull-right">
+                      <button onclick="submit_comment()" type="button" value="1">Post</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <ul id="list_comment" class="col-md-12">
+                  <!-- Start List Comment 1 -->
+                  <li class="box_result row">
+                    <div class="avatar_comment col-md-1">
+                      <img src="https://static.xx.fbcdn.net/rsrc.php/v1/yi/r/odA9sNLrE86.jpg" alt="avatar" />
+                    </div>
+                    <div class="result_comment col-md-11">
+                      <h4></h4>
+                      <p></p>
+                      <div class="tools_comment">
+                        <a class="like" href="#">Like</a>
+                        <span aria-hidden="true"> · </span>
+                        <a class="replay" href="#">Reply</a>
+                        <span aria-hidden="true"> · </span>
+                        <i class="fa fa-thumbs-o-up"></i> <span class="count">1</span>
+                        <span aria-hidden="true"> · </span>
+                        <span>3 months</span>
+                      </div>
+
+                    </div>
+                  </li>
+                  <li class="box_result row">
+                    <div class="avatar_comment col-md-1">
+                      <img src="img/04.jpg" alt="avatar" />
+                    </div>
+                    <div class="result_comment col-md-11">
+                      <h4>Eric Zermann</h4>
+                      <p>Voilà c’est fait ! mon QI est de 98, je crois que c’est pas mal. En tout cas en comparant avec mes 3 frères je suis au milieu. Très sympa ce concept d’invitation. Je recommande.</p>
+                      <div class="tools_comment">
+                        <a class="like" href="#">Like</a>
+                        <span aria-hidden="true"> · </span>
+                        <a class="replay" href="#">Reply</a>
+                        <span aria-hidden="true"> · </span>
+                        <i class="fa fa-thumbs-o-up"></i> <span class="count">1</span>
+                        <span aria-hidden="true"> · </span>
+                        <span>2 jour</span>
+                      </div>
+                      <ul class="child_replay"></ul>
+                    </div>
+                  </li>
+                  <li class="box_result row">
+                    <div class="avatar_comment col-md-1">
+                      <img src="img/08.jpg" alt="avatar" />
+                    </div>
+                    <div class="result_comment col-md-11">
+                      <h4>Julie Foussard</h4>
+                      <p>Sans commentaires ! J’adore le concept. Tout le bureau s’est pris au jeu et c’est vraiment rigolo.</p>
+                      <div class="tools_comment">
+                        <a class="like" href="#">Like</a>
+                        <span aria-hidden="true"> · </span>
+                        <a class="replay" href="#">Reply</a>
+                        <span aria-hidden="true"> · </span>
+                        <i class="fa fa-thumbs-o-up"></i> <span class="count">1</span>
+                        <span aria-hidden="true"> · </span>
+                        <span>1 semaine</span>
+                      </div>
+                      <ul class="child_replay"></ul>
+                    </div>
+                  </li>
+                  <li class="box_result row">
+                    <div class="avatar_comment col-md-1">
+                      <img src="img/05.jpg" alt="avatar" />
+                    </div>
+                    <div class="result_comment col-md-11">
+                      <h4>Jean Morin</h4>
+                      <p>Super génial de pouvoir comparer son QI avec ses proches, moi personnellement j’ai obtenu 104 ! Attention les amis je vais tous vous inviter et voyons voir qui en le plus dans cervelle.</p>
+                      <div class="tools_comment">
+                        <a class="like" href="#">Like</a>
+                        <span aria-hidden="true"> · </span>
+                        <a class="replay" href="#">Reply</a>
+                        <span aria-hidden="true"> · </span>
+                        <i class="fa fa-thumbs-o-up"></i> <span class="count">1</span>
+                        <span aria-hidden="true"> · </span>
+                        <span>2 mois</span>
+                      </div>
+                      <ul class="child_replay"></ul>
+                    </div>
+                  </li>
+                  <li class="box_result row">
+                    <div class="avatar_comment col-md-1">
+                      <img src="img/07.jpg" alt="avatar" />
+                    </div>
+                    <div class="result_comment col-md-11">
+                      <h4>Marie Dujardin</h4>
+                      <p>mon résultat est de 108 ! J’adore le concept et la facilité de pouvoir inviter par mail d’autres personnes à faire le test, par contre c’est dommage que les invités ne reçoivent pas de certificat.</p>
+                      <img src="img/cert-result2.jpg" />
+                      <div class="tools_comment">
+                        <a class="like" href="#">Like</a>
+                        <span aria-hidden="true"> · </span>
+                        <a class="replay" href="#">Reply</a>
+                        <span aria-hidden="true"> · </span>
+                        <i class="fa fa-thumbs-o-up"></i> <span class="count">1</span>
+                        <span aria-hidden="true"> · </span>
+                        <span>4 mois</span>
+                      </div>
+                      <ul class="child_replay"></ul>
+                    </div>
+                  </li>
+
+                  <li class="box_result row">
+                    <div class="avatar_comment col-md-1">
+                      <img src="img/06.jpg" alt="avatar" />
+                    </div>
+                    <div class="result_comment col-md-11">
+                      <h4>Mélodie Diebie</h4>
+                      <p>Voilà mon certificat</p>
+                      <img src="img/cert-result1.jpg" />
+                      <div class="tools_comment">
+                        <a class="like" href="#">Like</a>
+                        <span aria-hidden="true"> · </span>
+                        <a class="replay" href="#">Reply</a>
+                        <span aria-hidden="true"> · </span>
+                        <i class="fa fa-thumbs-o-up"></i> <span class="count">1</span>
+                        <span aria-hidden="true"> · </span>
+                        <span>4 mois</span>
+                      </div>
+                      <ul class="child_replay"></ul>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></br>
+      <div class="container">
+        <div class="row mx-auto d-block">
+          <h4 class="text-center">Paiement sécurisé par :</h4>
+          <img src="img/secure.png" width="170" height="110" class="mx-auto d-block" />
+        </div>
+      </div>
+      <script src="node_modules/card-js/card-js.min.js"></script>
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/styles.js"></script>
+</body>
+
+</html>
